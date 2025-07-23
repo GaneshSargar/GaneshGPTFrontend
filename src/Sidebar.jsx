@@ -69,7 +69,7 @@ function Sidebar() {
     }
     return (
         <section className={historyClose ? "sidebar" : "sidebarHide"}>
-            <button onClick={createNewChat} style={{border: "none"}}>
+            <button style={{border: "none"}}>
                 <img src="src/assets/blacklogo.png" alt="gpt logo" className="logo"></img>
                 <span className="close" onClick={handleHistory}><i class="fa-solid fa-xmark"></i></span>
             </button>
