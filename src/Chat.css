@@ -1,0 +1,76 @@
+.chats {
+    max-width: 700px;
+    overflow-y: scroll;
+    padding: 8rem;
+    /* color: black; */
+
+    width: 90%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+
+.gptDiv {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.hljs {
+    border-radius: 14px !important;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+/* Syntax highlighting styles */
+.gptDiv pre {
+    background: rgb(20, 20, 20) !important;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1em 0;
+}
+
+.gptDiv code:not(.inline-code) {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+.gptDiv .hljs {
+    background: #f6f8fa;
+}
+
+.gptDiv code.inline-code {
+    background: rgba(175,184,193,0.2);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+/* Make sure code blocks are properly formatted */
+.gptDiv pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+}
