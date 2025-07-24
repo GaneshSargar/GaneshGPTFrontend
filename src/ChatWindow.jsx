@@ -73,7 +73,6 @@ function ChatWindow() {
                 
                 <span>GaneshGPT <i className="fa-solid fa-chevron-down"></i></span>
                 <div className="userIconDiv" onClick={handleProfileClick}>
-                   <span className="darkIcon"> <i class="fa-regular fa-moon"></i></span>
                     <span className="userIcon"><i className="fa-solid fa-user"></i></span>
                 </div>
             </div>
